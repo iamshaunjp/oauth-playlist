@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/iamshaunjp/oauth-playlist#readme",
   "dependencies": {
+    "cookie-session": "^1.3.2",
     "ejs": "^2.5.7",
     "express": "^4.16.1",
     "mongoose": "^4.12.0",
