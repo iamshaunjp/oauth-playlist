@@ -14,11 +14,12 @@ router.get('/logout', (req, res) => {
 
 // auth with google+
 router.get('/google', passport.authenticate('google', {
-    scope: ['profile', 'email']
+    scope: ['profile']
 }));
 
 // callback route for google to redirect to
-router.get('/google/redirect', (req, res) => {
+// hand control to passport to use code to grab profile info
+router.get('/google/redirect', passport.authenticate('google'), (req, res) => {
     res.send('you reached the redirect URI');
 });
 
