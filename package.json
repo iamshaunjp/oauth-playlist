@@ -18,6 +18,8 @@
   "homepage": "https://github.com/iamshaunjp/oauth-playlist#readme",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
