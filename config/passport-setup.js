@@ -9,5 +9,5 @@ passport.use(
         clientSecret: keys.google.clientSecret
     }, () => {
         // passport callback function
-    });
+    })
 );
