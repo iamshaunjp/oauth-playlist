@@ -8,5 +8,5 @@ passport.use(
         clientSecret: /* add your client secret here */
     }, () => {
         // passport callback function
-    });
+    })
 );
