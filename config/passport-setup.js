@@ -6,5 +6,5 @@ passport.use(
         // options for google strategy
     }, () => {
         // passport callback function
-    });
+    })
 );
