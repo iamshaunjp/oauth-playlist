@@ -6,6 +6,6 @@ module.exports = {
             clientSecret: 'y3kKg0rZlk3WhE5u-A5aHwsD'
         },
         mongodb: {
-            dbURI: 'mongodb://iamshaunjp:thewho1986@ds151024.mlab.com:51024/oauth-test'
+            dbURI: 'mongodb://iamshaunjp:test@ds151024.mlab.com:51024/oauth-test'
         }
 };
